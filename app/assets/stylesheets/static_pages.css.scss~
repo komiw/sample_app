@@ -1,0 +1,11 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+padding: 50px 100px;
+margin: 0;
+font-family: Tahoma, Geneva, sans-serif;
+background-image: url(../images/body_bg.png);
+}
+
