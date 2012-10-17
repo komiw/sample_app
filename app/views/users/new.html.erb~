@@ -1,5 +1,5 @@
 <% provide(:title, 'Sign up') %>
 <h1>Sign up</h1>
 <p>
-    Find me in app/views/users/new.html.erb
+    Click <a href = ""> here </a> to sign up.
 </p>
