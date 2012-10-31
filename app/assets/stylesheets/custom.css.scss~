@@ -3,6 +3,7 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$bgColor: #6495ed;
 
 /* universal */
 
@@ -11,8 +12,8 @@ html {
 }
 
 body {
-  background-color:#b0c4de;;
   padding-top: 60px;
+  background: $bgColor;
 }
 
 section {
@@ -101,4 +102,3 @@ footer {
     }
   }
 }
-
