@@ -3,7 +3,7 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
-$bgColor: #6495ed;
+$bgColor: #f5deb3;
 
 /* universal */
 
