@@ -1,3 +1,13 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+
+  include SessionsHelper
+
+  alias_method :devise_current_user, :current_user
+  def current_user
+      if !devise_current_user.nil?
+          return # my logic
+      end
+      return nil
+  end
 end
